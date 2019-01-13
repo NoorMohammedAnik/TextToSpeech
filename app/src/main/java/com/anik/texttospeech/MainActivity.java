@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 String text=etxtText.getText().toString();
 
                 tts.speak(text,TextToSpeech.QUEUE_FLUSH,null);
+                //1.0f is default speech rate, increase to high and decrease to lower
                 tts.setSpeechRate(1.0f);
 
 
